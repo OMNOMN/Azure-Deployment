@@ -42,7 +42,7 @@ products_nodes = pd.read_csv("data/products_for_nodes.csv")
 loop_range = [str(i) for i in range(0, 66)]
 #
 #______________________
-max_features=34791
+max_features=42783
 maxlen = 300
 embed_size=100
 inp = Input(shape=(maxlen,))
